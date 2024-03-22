@@ -46,7 +46,18 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import aichanblockIconURL from './aichanblock/aichan.png'; // 拡張機能のアイコン
+import aichanblockInsetIconURL from './aichanblock/aichan-small.svg'; // 拡張機能のインセットアイコン（小さいアイコン）
+
 export default [
+    {
+        name: 'Aichan Block',
+        extensionId: 'aichanblock',
+        iconURL: aichanblockIconURL,
+        insetIconURL: aichanblockInsetIconURL,
+        description: 'これはあいちゃんのブロックです！', // 拡張機能の説明
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
